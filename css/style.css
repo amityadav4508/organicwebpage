@@ -1,0 +1,150 @@
+
+/* navbar  */
+
+.navbar-brand{
+ color: red;
+ font-family: 'Noto Serif', serif;
+ font-size: 30px;
+ font-weight: 400;
+ margin-left: 5px;
+
+}
+
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+    font-weight: 400;
+    font-size: 30px;
+}
+.nav-link {
+    
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0 0 0);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+.nav-link:hover {
+    
+   background-color: brown;
+   border-radius: 5px;
+   color: white;
+}
+
+
+.form{
+    height: 35px;
+    width: 50%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid red;
+}
+.btn{
+    height: 35px;
+    width:30%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    position: relative;
+    left: -35px;
+    border-radius: 60px;
+}
+.btn:hover{
+    background-color: rgb(207, 69, 27);
+    color: rgb(8, 8, 8);
+}
+
+
+/* main------ section------- */
+
+.main h1{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.btn1{
+    height: 40px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(177, 29, 29);
+    transition:0.5s;
+    
+}
+
+
+
+/* new ----------section-- */
+
+
+.new img{
+    width: 40px;
+    height: 60px;
+}
+
+/* trending --------------section */
+
+h1{
+    font-weight: 700;
+}
+
+.card{
+    -webkit-box-shadow: 0px 0px 49px 7px rgba(48,45,48,0.52);
+    -moz-box-shadow: 0px 0px 49px 7px rgba(48,45,48,0.52);
+    box-shadow: 0px 0px 49px 7px rgba(48,45,48,0.52);
+transition: 0.15s;
+}
+
+.card:hover{
+    -webkit-box-shadow: 10px 10px 69px 4px rgba(250,250,250,1);
+-moz-box-shadow: 10px 10px 69px 4px rgba(250,250,250,1);
+box-shadow: 10px 10px 69px 4px rgba(250,250,250,1);
+transition: 0.15s;
+}
+
+
+.apple h1{
+    font-family: 'Noto Serif', serif;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.btn2{
+    height: 30px;
+    width: 100px;
+    background: white;
+    margin-left: -20px;
+    border: solid white;
+    font-weight: 600;
+
+
+}
+.footer input{
+    height: 30px;
+    width: 55%;
+    outline: none;
+    border: solid white;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer p{
+    margin: 0;
+}
